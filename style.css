@@ -1,0 +1,31 @@
+
+
+/* Styling  */
+h2 {
+    color: #008080;
+}
+
+#v1, #v2, #v3, #v4 {
+    border: 5px #008080 solid;
+}
+
+@media screen and (min-width: 400px) {
+    .omg {
+        width: 100px;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .omg {
+        width: 150px;
+        padding: 10px;
+    }
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+    max-height: 300px;
+    overflow-y: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }

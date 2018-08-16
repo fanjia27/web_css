@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Jia Fan Homework</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+        <div class="col-md-1"></div>
+        <a class="navbar-brand" href="landing.html" style="background-color: #008080; color: white">Latitude</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plot
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="viz1.html">Max Temperature</a>
+                  <a class="dropdown-item" href="viz2.html">Humidity</a>
+                  <a class="dropdown-item" href="viz3.html">Cloudiness</a>
+                  <a class="dropdown-item" href="viz4.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
+        </ul>
+       </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron col-md-8">
+                <h2>Humidity</h2>
+                <hr>
+
+                <div class="mx-auto text-center"><img src="Fig2.png" width=500/></div>
+                <div class="text-justify"><p></p>The humidity levels seem to be normally distributed over the different latitudes. There are lots of places with humidity around 100%. For the same latitude, the range of humidity is normally wide. Interestingly, there are some places with high latitude having 0% humidity.</div>
+
+            </div>
+
+            <div class="jumbotron col-md-4">
+                    <h2>Visualization</h2>
+                    <hr>
+                    <img src="Fig1.png" class="omg">
+                    <img src="Fig2.png" class="omg" id="v2">
+                    <img src="Fig3.png" class="omg">
+                    <img src="Fig4.png" class="omg">
+            </div>
+        </div>
+    </div>
+
+
+<!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+        <div class="footer-copyright text-center py-3">© Copyright Coding Bootcamp 2017
+        </div>
+    </footer>
+  
+
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
